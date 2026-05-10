@@ -4,8 +4,8 @@ Este proyecto consiste en un sistema de clasificación automatizado que utiliza 
 
 ## 🚀 Arquitectura del Proyecto
 El sistema utiliza una arquitectura de **Maestro-Esclavo** para optimizar el rendimiento:
-1. **ESP32-CAM (Cerebro):** Encargada del reconocimiento visual, la interfaz en pantalla OLED y el envío de comandos seriales22, 25].
-2. **ESP32 Dev Module (Músculo):** Dedicada exclusivamente al control del servomotor para evitar interferencias con la cámara47, 49].
+1. **ESP32-CAM (Cerebro):** Encargada del reconocimiento visual, la interfaz en pantalla OLED y el envío de comandos seriales.
+2. **ESP32 Dev Module (Músculo):** Dedicada exclusivamente al control del servomotor para evitar interferencias con la cámara.
 
 ## 📁 Estructura del Repositorio
 * `/src`: Códigos fuente (.ino).
@@ -28,7 +28,7 @@ Servidor web para capturar el dataset necesario para entrenar el modelo en Edge 
 ### 2. Reconocimiento y Clasificación (`esp32cam-oled.ino`)
 * Ejecuta el modelo de Edge Impulse con un filtro de certeza del 90%.
 * Muestra el nombre del componente y el porcentaje de confianza en la pantalla OLED.
-* Envía comandos binarios (`'0'` o `'1'`) vía UART (TXD) a la placa de control ESP32].
+* Envía comandos binarios (`'0'` o `'1'`) vía UART (TXD) a la placa de control ESP32.
 
 ### 3. Control de Actuador (`esp32-servo.ino`)
 * Recibe las órdenes por Serial (RX0).
