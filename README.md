@@ -9,7 +9,7 @@ El sistema utiliza una arquitectura de **Maestro-Esclavo** para optimizar el ren
 
 ## 📁 Estructura del Repositorio
 * `/src`: Códigos fuente (.ino).
-* `/multimedia`: Imagenes y video del montaje físico finalizado.
+* `/multimedia`: Imagenes del montaje finalizado.
 * `/conexionado`: Esquema digital de las conexiones del proyecto.
 
 ## 🛠️ Hardware Utilizado
@@ -37,9 +37,10 @@ Servidor web para capturar el dataset necesario para entrenar el modelo en Edge 
   * Recibe `'1'`: Mueve el servo a **180°**, espera 9 segundos y regresa a 90° a los 9 segundos.
 * Implementa limpieza de buffer para ignorar señales redundantes mientras el motor está en movimiento.
 
-## 🎥 Funcionamiento
+## 🎥 Videos
 
-* **Video:** [Prueba de clasificación en tiempo real](https://www.youtube.com/shorts/k4VcncxdQCM)
+* **Funcionamiento:** [Prueba de clasificación en tiempo real](https://www.youtube.com/shorts/k4VcncxdQCM)
+* **Montaje:** [Vista del producto final](https://www.youtube.com/shorts/x_CwsfI-kAk)
 
 ---
 **Autores:** Sebastián Amador - Juan David Arias - Daniel Bedoya - Camilo Giraldo
