@@ -33,8 +33,8 @@ Servidor web para capturar el dataset necesario para entrenar el modelo en Edge 
 ### 3. Control de Actuador (`esp32-servo.ino`)
 * Recibe las órdenes por Serial (RX0).
 * **Lógica de Posicionamiento:**
-  * Recibe `'0'`: Mueve el servo a **0°**, espera 9 segundos y regresa a 90° a los 9 segundos.
-  * Recibe `'1'`: Mueve el servo a **180°**, espera 9 segundos y regresa a 90° a los 9 segundos.
+  * Recibe `'0'`: Mueve el servo a **0°**, espera 9 segundos y regresa a 90°.
+  * Recibe `'1'`: Mueve el servo a **180°**, espera 9 segundos y regresa a 90°.
 * Implementa limpieza de buffer para ignorar señales redundantes mientras el motor está en movimiento.
 
 ## 🎥 Videos
